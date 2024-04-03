@@ -1,0 +1,155 @@
+.container-navbar{
+  height: 60px;
+  /* background-color: black; */
+}
+.wrapper{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.center{
+  flex: 1;
+  text-align: center;
+}
+.right{
+  flex: 1;  
+  align-items: center;
+}
+.menuItems{
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+.language{
+  cursor: pointer;
+  font-size: 14px;
+}
+.searchContainer{
+  border: 0.5px solid lightgray;
+ 
+}
+input{
+  
+}
+/* .logo h1{
+  font-weight: bold;
+} */
+.anouncement-container{
+  background-color: teal;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  height: 30px;
+  justify-content: center;
+  padding: 15px;
+  /* display: flex; */
+}
+.slide-container{
+  /* height: 80vh; */
+  width: 100%;
+  display: flex;
+  background-color: coral;
+  position: relative;
+  /* overflow: hidden; */
+  /* margin-top: 20px; */
+}
+/* .holder{
+  display: flex;
+
+} */
+.arrow{
+  width: 100px;
+  height: 100px;
+  background-color: #fff7f7;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40vh;
+  cursor: pointer;
+  opacity: 0.5;
+  /* right: 0; */
+  /* margin-top: 40vh */
+}
+.left{
+  /* width: 100px; */
+  /* height: 100px; */
+  left: 10px;
+}
+.right{
+  /* width: 100px; */
+  /* height: 100px; */
+  right: 10px;
+}
+.slide-wrapper{
+  height: 100%;
+  display: flex; 
+  align-items: center;
+  flex: 1;
+}
+/* .slide{
+  display: flex;
+  width:50%;
+} */
+/* .img1{
+  width: 100vw;
+  height: 80vh;
+  margin-right: 10em;
+  background-color: white;
+} */
+/* .imgContainer{
+  flex: 1;
+  align-items: center;
+}
+.ImgContainer{
+  flex: 1;
+  width: 100%;
+} */
+/* .InfoContainer{
+  flex: 1;
+  width: 100%;
+} */
+/* .infoContainer{
+  flex: 1;
+  position: absolute;
+  bottom: 10em;
+  right: 16px;
+  font-size: 18px;
+  margin-right: 80px;
+}
+.compromise{
+  margin-top: 1em;
+} */
+.btn1{
+padding: 10px;
+background-color: transparent;
+margin-top: 1em;
+cursor: pointer;
+margin-left: -28em;
+/* align-items: center;
+justify-content: center; */
+}
+.slide2{
+  padding-left: 20em;
+}
+.slide3{
+  padding-left: 20em;
+}
+
+/* .leftArrow{
+  left: 10px;
+}
+.rightArrow{
+  top: 0;
+  bottom: 0;
+} */
